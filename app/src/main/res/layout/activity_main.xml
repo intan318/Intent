@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="12dp"
+    >
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move Activity"
+        />
+
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Activity"
+        />
+
+    <Button
+        android:id="@+id/btnObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Object Activity"
+        />
+
+    <Button
+        android:id="@+id/btnCallback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Callback Activity"
+        />
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Activity"
+        />
+
+
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Activity"
+        />
+
+</LinearLayout>
